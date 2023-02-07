@@ -2,4 +2,5 @@
 
 mkdir /var/www/pterodactyl/img
 wget http://wynianetwork.ml/img/icon.jpg
-ls
+mv icon.png /img/icon.png
+exit
