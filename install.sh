@@ -46,6 +46,7 @@ case $input in
     echo "Utiliser ./start.sh pour démarrer le serveur"
     echo ""
     echo "##############################################################"
+    rm install.sh
     rm install.sh;;
     
     1)
