@@ -41,4 +41,6 @@ case $input in
     echo "Vous pouvez modifier le fichier start.sh avec nano start.sh"
     echo ""
     echo "##############################################################";;
+    1)
+    echo "Fermeture du Script" && exit;;
 esac
