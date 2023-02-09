@@ -17,7 +17,7 @@ echo "##########################################################################
 echo ""
 echo "* [0] Installer Minecraft Spigot 1.8.8"
 echo "* [1] Installer Minecraft Spigot Latest"
-echo "* [2] Installer Minecraft Forge Server 1.12.2"
+echo "* [2] Installer Minecraft Forge Server 1.12.2 (Ne marche pas :("
 echo "* [3] Installer Minecraft Java Vanilla Latest"
 echo "* [4] Quitter"
 
