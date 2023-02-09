@@ -43,7 +43,7 @@ case $input in
     echo "##############################################################"
     echo ""
     echo "Installation terminé"
-    echo "Vous pouvez modifier le fichier start.sh avec nano start.sh"
+    echo "Utiliser ./start.sh pour démarrer le serveur"
     echo ""
     echo "##############################################################";;
     
@@ -64,7 +64,7 @@ case $input in
     echo "##############################################################"
     echo ""
     echo "Installation terminé"
-    echo "Vous pouvez modifier le fichier start.sh avec nano start.sh"
+    echo "Utiliser ./start.sh pour démarrer le serveur"
     echo ""
     echo "##############################################################";;
     
@@ -81,13 +81,35 @@ case $input in
     mv forge-1.12.2-14.23.5.2860-installer.jar server.jar
     wget https://raw.githubusercontent.com/Loxstazz/script/main/start.sh
     chmod +x start.sh
+    wget https://raw.githubusercontent.com/Loxstazz/script/main/eula.txt
     java -jar forge-1.12.2-14.23.5.2860-installer.jar --installServer
     echo "##############################################################"
     echo ""
     echo "Installation terminé"
-    echo "Vous pouvez modifier le fichier start.sh avec nano start.sh"
+    echo "Utiliser ./start.sh pour démarrer le serveur"
     echo ""
     echo "##############################################################";;
+    
+    3)
+    apt update
+    apt install default-jre screen -y
+    apt update
+    echo "##############################"
+    echo ""
+    echo "Java à été installé"
+    echo ""
+    echo "##############################"
+    wget https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar
+    wget https://raw.githubusercontent.com/Loxstazz/script/main/start.sh
+    chmod +x start.sh
+    wget https://raw.githubusercontent.com/Loxstazz/script/main/eula.txt
+    echo "##############################################################"
+    echo ""
+    echo "Installation terminé"
+    echo "Utiliser ./start.sh pour démarrer le serveur"
+    echo ""
+    echo "##############################################################";;
+    
     4)
     echo "Fermeture du Script" && exit;;
 esac
