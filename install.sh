@@ -28,7 +28,7 @@ case $input in
 
     0)
     apt update
-    apt install default-jre screen -y
+    apt install openjdk-17-jre screen -y
     apt update
     echo "##############################"
     echo ""
@@ -51,7 +51,7 @@ case $input in
     
     1)
     apt update
-    apt install default-jre screen -y
+    apt install openjdk-17-jre screen -y
     apt update
     echo "##############################"
     echo ""
@@ -73,7 +73,7 @@ case $input in
     
     2)
     apt update
-    apt install default-jre screen -y
+    apt install openjdk-17-jre screen -y
     apt update
     echo "##############################"
     echo ""
@@ -96,7 +96,7 @@ case $input in
     
     3)
     apt update
-    apt install default-jre screen -y
+    apt install openjdk-17-jre screen -y
     apt update
     echo "##############################"
     echo ""
