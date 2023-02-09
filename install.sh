@@ -40,5 +40,5 @@ case $input in
     echo "Installation terminé"
     echo "Vous pouvez modifier le fichier start.sh avec nano start.sh"
     echo ""
-    echo "##############################################################"
+    echo "##############################################################";;
 esac
