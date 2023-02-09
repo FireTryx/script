@@ -25,8 +25,7 @@ case $input in
 
     0)
     apt update
-    apt install default-jre
-    apt install screen
+    apt install default-jre screen -y
     apt update
     echo "##############################"
     echo ""
@@ -39,8 +38,8 @@ case $input in
     echo "##############################################################"
     echo ""
     echo "Installation terminé"
-    echo "Vous pouvez modifier le fichier start.sh avec nano start.sh
+    echo "Vous pouvez modifier le fichier start.sh avec nano start.sh"
     echo ""
-    echo "##############################################################";;
+    echo "##############################################################"
     1) echo "Fermeture" && exit;;
 esac
