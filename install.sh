@@ -45,7 +45,8 @@ case $input in
     echo "Installation terminé"
     echo "Utiliser ./start.sh pour démarrer le serveur"
     echo ""
-    echo "##############################################################";;
+    echo "##############################################################"
+    rm install.sh;;
     
     1)
     apt update
@@ -66,7 +67,8 @@ case $input in
     echo "Installation terminé"
     echo "Utiliser ./start.sh pour démarrer le serveur"
     echo ""
-    echo "##############################################################";;
+    echo "##############################################################"
+    rm install.sh;;
     
     2)
     apt update
@@ -88,7 +90,8 @@ case $input in
     echo "Installation terminé"
     echo "Utiliser ./start.sh pour démarrer le serveur"
     echo ""
-    echo "##############################################################";;
+    echo "##############################################################"
+    rm install.sh;;
     
     3)
     apt update
@@ -108,7 +111,8 @@ case $input in
     echo "Installation terminé"
     echo "Utiliser ./start.sh pour démarrer le serveur"
     echo ""
-    echo "##############################################################";;
+    echo "##############################################################"
+    rm install.sh;;
     
     4)
     echo "Fermeture du Script" && exit;;
