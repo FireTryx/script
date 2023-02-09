@@ -1,5 +1,5 @@
 if [ "$(id -u)" != "0" ]; then
-   echo "Please Run This Script As A root User" 1>&2
+   echo "Veuillez exécuter ce script avec des privilèges root" 1>&2
    exit 1
 fi
 
