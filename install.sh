@@ -125,19 +125,29 @@ case $input in
     echo "Java à été installé"
     echo ""
     echo "##############################"
-    cd /tmp/
-    wget https://github.com/pmmp/PocketMine-MP/releases/download/5.8.2/PocketMine-MP.phar
+    clear
     echo "##############################################################"
     echo ""
     echo "Création du dossier d'intallation..."
     echo "/home/server"
     echo ""
     echo "##############################################################"
+    cd /tmp/
+    wget https://github.com/pmmp/PocketMine-MP/releases/download/5.8.2/PocketMine-MP.phar
+    clear
+    echo "##############################################################"
+    echo ""
+    echo "Création du dossier d'intallation..."
+    echo "Dossier: /home/server"
+    echo ""
+    echo "##############################################################"
     mkdir /home/server
     cd /home/server
     mv /tmp/PocketMine-MP.phar /home/server/server.sh
+    clear
     wget https://raw.githubusercontent.com/FireTryx/script/main/server_start.sh
     chmod +x server_start.sh
+    clear
     echo "##############################################################"
     echo ""
     echo "Installation de PHP..."
@@ -146,7 +156,9 @@ case $input in
     echo "##############################################################"
     cd /home/server
     wget https://github.com/pmmp/PHP-Binaries/releases/download/php-8.1-latest/PHP-Linux-x86_64-PM5.tar.gz
+    clear
     mv /home/server/php-8.1-latest/PHP-Linux-x86_64-PM5.tar.gz /home/server/php-bin.tar.gz
+    clear
     echo "##############################################################"
     echo ""
     echo "Dézippage de PHP"
@@ -154,14 +166,15 @@ case $input in
     echo ""
     echo "##############################################################"
     tar -xzvf php-bin.tar.gz
+    clear
     rm php-bin.tar.gz
+    clear
     echo "##############################################################"
     echo ""
     echo "Installation terminé"
     echo "Utiliser ./server_start.sh pour démarrer le serveur"
     echo ""
     echo "##############################################################"
-    rrm install.sh;;
     
     5)
     echo "Fermeture du Script" && exit;;
