@@ -157,7 +157,7 @@ case $input in
     cd /home/server
     wget https://github.com/pmmp/PHP-Binaries/releases/download/php-8.1-latest/PHP-Linux-x86_64-PM5.tar.gz
     clear
-    mv /home/server/php-8.1-latest/PHP-Linux-x86_64-PM5.tar.gz /home/server/php-bin.tar.gz
+    mv /home/server/PHP-Linux-x86_64-PM5.tar.gz /home/server/php-bin.tar.gz
     clear
     echo "##############################################################"
     echo ""
