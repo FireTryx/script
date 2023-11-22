@@ -5,7 +5,7 @@ fi
 
 apt install sudo -y
 
-
+clear
 echo "#######################################################################################"
 echo "#"
 echo "#                                  FireTryx_YT Script"
@@ -22,7 +22,7 @@ echo "* [3] Installer Minecraft Java Vanilla Latest"
 echo "* [4] Installer PocketMine-MP 1.20.40 (Latest version: PMMP 5.8.2)"
 echo "* [5] Quitter"
 
-read -p "Enter Input (0-1): " input
+read -p "Enter Input (0-5): " input
 
 
 case $input in
