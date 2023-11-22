@@ -5,7 +5,6 @@ fi
 
 apt install sudo -y
 
-clear
 echo "#######################################################################################"
 echo "#"
 echo "#                                  FireTryx_YT Script"
