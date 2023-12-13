@@ -7,7 +7,7 @@ apt install sudo -y
 
 echo "#######################################################################################"
 echo "#"
-echo "#                                  FireTryx_YT Script"
+echo "#                                  FireTryx Script"
 echo "#"
 echo "#                           Copyright (C) 2022 - 2023, FIRETRYX"
 echo "#"
